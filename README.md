@@ -18,3 +18,9 @@ export ftpserver='hostname' ; export user='username' ; export pass='Password' ; 
 ```bash
 export ftpserver='hostname' ; export user='username' ; export pass='Password' ; export file='listonly' ; export dir='/dest/filepath'; ./drop.rb
 ```
+
+### Dropping a file while specifying a destination
+
+```bash
+export ftpserver='hostname' ; export user='username' ; export pass='Password' ; export file='listonly' ; export dir='/dest/filepath'; export destfile='destfilename.ext' ; ./drop.rb
+```
